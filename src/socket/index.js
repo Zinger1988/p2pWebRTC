@@ -7,6 +7,6 @@ const options = {
 	transports: ["websocket"]
 }
 
-const socket = io('https://node-test-40f2.onrender.com:3001', options);
+const socket = io('https://node-test-40f2.onrender.com:10000', options);
 
 export default socket;
